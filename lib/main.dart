@@ -66,12 +66,20 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                   ),
                 ),
-                Container(
-                  padding: const EdgeInsets.all(15.0),
-                  color: Colors.redAccent,
-                  child: const Text(
-                    "Space Details",
-                    style: TextStyle(color: Colors.white),
+                const SizedBox(
+                  height: 30,
+                ),
+                Center(
+                  child: Container(
+                    padding: const EdgeInsets.all(15.0),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(100),
+                      color: Colors.redAccent,
+                    ),
+                    child: const Text(
+                      "Space Details",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                 ),
               ],
